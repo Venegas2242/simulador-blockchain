@@ -1,0 +1,117 @@
+.verify-block {
+  background-color: #e8f5e9;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.verify-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.verify-block h2 {
+  color: #2E7D32;
+  margin: 0;
+}
+
+.clear-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
+}
+
+.verify-block input, .verify-block select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+}
+
+.verify-block input::placeholder {
+  color: #999;
+}
+
+.verify-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.verify-button:hover {
+  background-color: #45a049;
+}
+
+.result-container {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contract-transaction-info {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid #e9ecef;
+}
+
+.contract-note {
+  color: #0d6efd;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contract-signature {
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  color: #495057;
+  cursor: not-allowed;
+}
+
+.helper-text {
+  color: #6c757d;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.result-container {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.result-container.error {
+  background-color: #f44336;
+  color: white;
+}
+
+.result-container.valid {
+  background-color: #4CAF50;
+  color: white;
+}
